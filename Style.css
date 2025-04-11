@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #C4A29E;
+}
+#heading{
+    background-color: #002a32;
+    color :#d10d6c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+#heading:hover{
+    color: black;
+    cursor:pointer;
+}
+#heading2{
+    border-radius: 80%;
+    background-color: #C4A29E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4rem;
+}
+.choices:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+.choices{
+    border-radius: 50px;
+
+}
+#user:hover{
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#comp:hover{
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#GameNoti{
+    background-color: black;
+    color: #F40076;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    padding : 10px;
+}
+#GameNoti:hover{
+    
+    font-size: 20px;
+    font-weight: bold;
+    cursor:pointer;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
